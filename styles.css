@@ -34,9 +34,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: darkblue;
+    color: rgb(10, 10, 240);
 }
-.detel{
+.details {
     margin-left: 10%;
     margin-top: 12%;
 }
@@ -94,3 +94,21 @@ span{
     width: 20%;
     height: 30%;
 }
+.centered-text {
+    text-align: center;
+}
+.my-text {
+    font-family: Arial;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .my-div {
+    margin-bottom: 20px;
+  }
+  
+  #special-div {
+    padding-bottom: 20px;
+  }
+  

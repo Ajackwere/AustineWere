@@ -11,7 +11,7 @@ navLinks.forEach(link => {
 
 // Show a message when the "HIRE ME" button is clicked
 document.addEventListener('DOMContentLoaded', () => {
-  const hireButton = document.querySelector('#hire a');
+  const hireButton = document.querySelector('#hire');
   hireButton.addEventListener('click', () => {
     alert('Thank you for your interest! Please contact me at austinejackwere@gmail.com.');
   }); 
