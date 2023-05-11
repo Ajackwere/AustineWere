@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Download CV document when "DOWNLOAD MY CV/RESUME" button is clicked
 const downloadButton = document.querySelector('.details a');
 downloadButton.addEventListener('click', () => {
-  const cvUrl = 'https://drive.google.com/file/d/1orsp-2zWmygugz-t5dH79aojn8wv2dWa/view?usp=sharing'; // the actual URL of my CV document
+  const cvUrl = 'https://drive.google.com/file/d/1orsp-2zWmygugz-t5dH79aojn8wv2dWa/view?usp=sharing'; //the actual URL of my CV document
   const link = document.createElement('a');
   link.href = cvUrl;
   link.setAttribute('download', 'Austine-Jack-Were-CV.pdf');

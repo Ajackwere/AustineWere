@@ -111,4 +111,21 @@ span{
   #special-div {
     padding-bottom: 20px;
   }
-  
+  button {
+    text-align: left;
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    flex-wrap: initial;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+button:hover {
+    color: blue;
+}
+
+button:active {
+    color: red;
+}
