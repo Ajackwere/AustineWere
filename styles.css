@@ -40,7 +40,7 @@ nav ul li a:hover{
     margin-left: 10%;
     margin-top: 12%;
 }
-.detel h1{
+.details h1{
     font-size: 50px;
     color: rgb(101, 122, 101);
     margin-bottom: 20px;
@@ -50,12 +50,12 @@ span{
     color: chocolate;
 }
 
-.detel p{
+.details p{
     color: darkslategray;
     line-height: 22px;
 }
 
-.detel a{
+.details a{
     background: #212121;
     padding: 10px 18px;
     text-decoration:none;
@@ -91,6 +91,6 @@ span{
     left: 45%;
 }
 .logo {
-    width: 20%;
+    width: auto;
     height: auto;
 }
