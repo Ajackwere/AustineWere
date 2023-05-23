@@ -10,12 +10,22 @@ navLinks.forEach(link => {
 });
 
 // Show a message when the "HIRE ME" button is clicked
-document.addEventListener('DOMContentLoaded', () => {
-  const hireButton = document.querySelector('#hire');
-  hireButton.addEventListener('click', () => {
-    alert('Thank you for your interest! Please contact me at austinejackwere@gmail.com.');
-  }); 
+document.addEventListener("DOMContentLoaded", function() {
+  var hireButton = document.getElementById("hireButton");
+  hireButton.addEventListener("click", showDetails);
+
+  function showDetails() {
+    // Replace the placeholders with your own details
+    var name = "Austine Jack Were";
+    var email = "austinejackwere@gmail.com";
+    var phone = "+25470041989";
+
+    // Display the details in an alert
+    var details = "Name: " + name + "\nEmail: " + email + "\nPhone: " + phone;
+    alert(details);
+  }
 });
+
 // Download CV document when "DOWNLOAD MY CV/RESUME" button is clicked
 const downloadButton = document.querySelector('.details a');
 downloadButton.addEventListener('click', () => {
