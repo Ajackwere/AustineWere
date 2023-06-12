@@ -130,3 +130,18 @@ button:hover {
 button:active {
     color: red;
 }
+#details div {
+  float: left;
+  width: 33.33%; /* Distribute width equally among the divs */
+}
+#details div {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#details div:nth-last-child(-n+4) {
+  background-color: lightgray;
+  text-align: center;
+}
