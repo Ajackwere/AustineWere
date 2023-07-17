@@ -1,17 +1,17 @@
-*{
- margin: 0;
- padding: 0;
- font-family: sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-.hero{
+.hero {
     position: relative;
     width: 100%;
     height: 100vh;
     background: #eff4fd;
 }
 
-nav{
+nav {
     display: flex;
     width: 84%;
     margin: auto;
@@ -20,45 +20,47 @@ nav{
     justify-content: space-between;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
 
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(10, 10, 240);
 }
+
 .details {
     margin-left: 10%;
     margin-top: 12%;
 }
-.details h1{
+
+.details h1 {
     font-size: 50px;
     color: rgb(101, 122, 101);
     margin-bottom: 20px;
 }
 
-span{
+span {
     color: chocolate;
 }
 
-.details p{
+.details p {
     color: darkslategray;
     line-height: 22px;
 }
 
-.details a{
+.details a {
     background: #212121;
     padding: 10px 18px;
-    text-decoration:none;
+    text-decoration: none;
     font-weight: bold;
     color: #fff;
     display: inline-block;
@@ -66,7 +68,7 @@ span{
     border-radius: 5px;
 }
 
-.images{
+.images {
     width: 45%;
     height: 60%;
     position: absolute;
@@ -74,7 +76,7 @@ span{
     right: 100px;
 }
 
-.images img{
+.images img {
     height: 100%;
     position: absolute;
     left: 50%;
@@ -83,65 +85,78 @@ span{
 }
 
 
-.images:hover .shape{
+.images:hover .shape {
     bottom: 40px;
 }
 
-.images:hover .boy{
+.images:hover .boy {
     left: 45%;
 }
+
 .logo {
     width: 20%;
     height: 30%;
     border-radius: 50%;
 }
+
 .centered-text {
     text-align: center;
 }
+
 .my-text {
     font-family: Arial;
     font-size: 16px;
     color: #333;
     text-align: justify;
     line-height: 1.5;
-  }
-  .my-div {
+}
+
+.my-div {
     margin-bottom: 20px;
-  }
-  
-  #special-div {
+}
+
+#special-div {
     padding-bottom: 20px;
-  }
-  button {
-    text-align: left;
-    color: black;
-    background-color: transparent;
+}
+
+button {
+    text-align: center;
+    color: white;
+    background-color: rgb(35, 35, 146);
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     flex-wrap: initial;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
 }
 
 button:hover {
-    color: blue;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(3, 101, 248);
 }
 
 button:active {
-    color: red;
+    background-color: brown;
 }
+
 #details div {
-  float: left;
-  width: 33.33%; /* Distribute width equally among the divs */
+    float: left;
+    width: 33.33%;
+    /* Distribute width equally among the divs */
 }
+
 #details div {
-  float: left;
-  width: 25%;
-  padding: 20px;
-  box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #details div:nth-last-child(-n+4) {
-  background-color: lightgray;
-  text-align: center;
+    background-color: lightgray;
+    text-align: center;
 }
